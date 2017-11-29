@@ -303,14 +303,14 @@
         <entry key="browser" value="dimension_browser"/>
         <entry key="browser_name" value="dimension_browser"/>
         <entry key="platform" value="dimension_platform"/>
-        <entry key="location" value="dimension_location"></entry>
-        <entry key="location_country" value="dimension_location"></entry>
-        <entry key="location_province" value="dimension_location"></entry>
-        <entry key="location_city" value="dimension_location"></entry>
-        <entry key="inbound" value="dimension_inbound"></entry>
-        <entry key="event" value="dimension_event"></entry>
-        <entry key="currency_type" value="dimension_currency_type"></entry>
-        <entry key="payment_type" value="dimension_payment_type"></entry>
+        <entry key="location" value="dimension_location"/>
+        <entry key="location_country" value="dimension_location"/>
+        <entry key="location_province" value="dimension_location"/>
+        <entry key="location_city" value="dimension_location"/>
+        <entry key="inbound" value="dimension_inbound"/>
+        <entry key="event" value="dimension_event"/>
+        <entry key="currency_type" value="dimension_currency_type"/>
+        <entry key="payment_type" value="dimension_payment_type"/>
     </util:map>
 
     <util:map id="dimensionColumns">
