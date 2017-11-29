@@ -8,14 +8,12 @@ import com.beifeng.ae.common.AEConstants;
 
 /**
  * 计算active rate
- * 
- * @author gerry
- * 
  */
 public class ActiveRateCalculater implements AECalculate {
 
     @Override
     public Object calculate(Map<String, Object> metricData) {
+
         BigDecimal totalUsers = BigDecimal.valueOf(Long.valueOf(metricData.get(AEConstants.PRIFIX + AEConstants.TOTAL_USERS).toString()));
         BigDecimal activeUsers = BigDecimal.valueOf(Long.valueOf(metricData.get(AEConstants.PRIFIX + AEConstants.ACTIVE_USERS).toString()));
         if (totalUsers == null || activeUsers == null) {
